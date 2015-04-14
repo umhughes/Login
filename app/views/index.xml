@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="index" class="loginContainer" >
+		<Label id='loginText'></Label>
+		<View id="lvContainer" >
+			<TextField id="email" class='tfWrapper' />
+			<TextField id="password" class='tfWrapper' />
+			<View class="centerHelper">
+				<Button id="doLoginBtn" title="Login" />
+			</View>
+		</View>
+	</Window>
+</Alloy>
